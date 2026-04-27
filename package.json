@@ -1,0 +1,27 @@
+{
+  "name": "ai_bugbounty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^25.6.0",
+    "fast-xml-parser": "^5.7.2",
+    "inquirer": "^13.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
+    "zod": "^4.3.6"
+  },
+  "dependencies": {
+    "axios": "^1.15.2",
+    "dotenv": "^17.4.2"
+  }
+}

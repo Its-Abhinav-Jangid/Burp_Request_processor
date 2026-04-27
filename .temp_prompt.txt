@@ -1,0 +1,31 @@
+Analyze the following HTTP request/response to identify dynamic segments in the path and name them appropriately (e.g., {user_id}, {goal_id}).
+
+Known mappings: {}
+Method: GET
+Path: /api/dojoSchool/66f945f5ef9dac6c1364d64f
+
+Request: GET /api/dojoSchool/66f945f5ef9dac6c1364d64f?onlyVerified=true&skipParentCount=true HTTP/2
+Host: teach.classdojo.com
+Cookie: dojo_device.id=699d9de4702e14de03e13daa; cf_clearance=5QvO79AD1Fb_KMe5wAEHaj15yrNWQS_7SZGr3qm_HC0-1775306757-1.2.1.1-_9FTvM5xC69r7aQmp.zU2XU2GEpJFiCH0MsfMN.8vNJIi1mL9X.Pps7wxF1WwAhYsmRNe0LRZPbS9I0S.sEdDg6tqWofP.NwV7AwaSDfLv1UZhLIYt4Ojj0ngDwFSp5tUW9cY1gKqfPTW9_qnpVsc1mKlKtjeQ2OUAeqgF_YKXlNTHn7hfGp9S20XC0_CgiOTXEAdppwNQuLdAgcQpKM24o0GWRJUdG_i_sNga.791EP9Q21luAvG3j3BCQuWmyeHn
+Response: HTTP/2 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Mon, 27 Apr 2026 14:02:15 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding, Origin
+X-Backend-Group: api-canary
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+X-Usa: 0
+X-Country-Code: IN
+X-Eu: 0
+X-Dojo-Request-Id: 019dcf3f-7245-79ca-a2df-58bc0f0c3ba7
+Retry-After: 3600
+X-Ratelimit-Limit: 200
+X-Response-Time: 69
+P3p: C='Privac
+
+Return ONLY a JSON object with:
+1. "normalizedPath": The path with placeholders (no query string).
+2. "params": A mapping from name to original value (e.g., {"user_id": "123"}).
+3. "confidence": Score 0-1.

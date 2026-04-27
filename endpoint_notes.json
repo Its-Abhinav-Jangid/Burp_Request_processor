@@ -1,0 +1,322 @@
+{
+  "GET::": {
+    "endpoint": "/",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::session": {
+    "endpoint": "/api/session?includeExtras=location",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::featureSwitch::v2": {
+    "endpoint": "/api/featureSwitch/v2?appVersion=202604271332.21812.0-teach&featureSetId=33e5389553a740e76dce51cfa85978fd90943b46&sessionId=66d62f74-530c-49d1-adaf-4f99e92fa393&sessionSwitches=web_elevated_student_sso%2Cweb_teach_design_tokens_v2%2Cweb_teach_normalize_typography_padding_margin%2Cweb_teach_sso_signup_option_v1%2Cweb_teach_student_bait_v2",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::needsDataTransferConsent": {
+    "endpoint": "/api/needsDataTransferConsent",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::user::emailValidation::jangidanshu2022%40gmail.com": {
+    "endpoint": "/api/user/emailValidation/jangidanshu2022%40gmail.com?skipDomainValidation=false",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::oidc::mobile::google::verification_url": {
+    "endpoint": "/api/oidc/mobile/google/verification_url?redirectTo=https%3A%2F%2Fteach.classdojo.com%2F%23%2Foidc%2Fcallback&email=jangidanshu2022%40gmail.com&prompt=select_account%20consent&loginHint=jangidanshu2022%40gmail.com",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::ul::t::oidc::callback": {
+    "endpoint": "/ul/t/oidc/callback?state=mobile%3Dtrue%26redirectTo%3Dhttps%253A%252F%252Fteach.classdojo.com%252F%2523%252Foidc%252Fcallback%26slug%3Dgoogle%26nonce%3D019dcf3f-017d-75b7-ab9b-27b94c6da2de%26email%3Djangidanshu2022%2540gmail.com&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AeoWuM83xuNA2N9vIJIcy1iTxKCjk_nfDSWzJpgxkNthCz2IPRF3U04QLMqnTl0z_pe20g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=4&prompt=consent",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::app-data.json": {
+    "endpoint": "/page-data/app-data.json?6ad53086d801d63102a09e145",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::ul::t::oidc::callback::page-data.json": {
+    "endpoint": "/page-data/ul/t/oidc/callback/page-data.json?6ad53086d801d63102a09e145?state=mobile%3Dtrue%26redirectTo%3Dhttps%253A%252F%252Fteach.classdojo.com%252F%2523%252Foidc%252Fcallback%26slug%3Dgoogle%26nonce%3D019dcf3f-017d-75b7-ab9b-27b94c6da2de%26email%3Djangidanshu2022%2540gmail.com&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AeoWuM83xuNA2N9vIJIcy1iTxKCjk_nfDSWzJpgxkNthCz2IPRF3U04QLMqnTl0z_pe20g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=4&prompt=consent",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::sq::d::2234681201.json": {
+    "endpoint": "/page-data/sq/d/2234681201.json",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::sq::d::201046442.json": {
+    "endpoint": "/page-data/sq/d/201046442.json",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::sq::d::2997375350.json": {
+    "endpoint": "/page-data/sq/d/2997375350.json",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::sq::d::3859677088.json": {
+    "endpoint": "/page-data/sq/d/3859677088.json",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::sq::d::787815624.json": {
+    "endpoint": "/page-data/sq/d/787815624.json",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::page-data::sq::d::92595729.json": {
+    "endpoint": "/page-data/sq/d/92595729.json",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "POST::logs::logEvent": {
+    "endpoint": "/logs/logEvent",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::oidc::callback": {
+    "endpoint": "/api/oidc/callback?state=mobile%3Dtrue%26redirectTo%3Dhttps%253A%252F%252Fteach.classdojo.com%252F%2523%252Foidc%252Fcallback%26slug%3Dgoogle%26nonce%3D019dcf3f-017d-75b7-ab9b-27b94c6da2de%26email%3Djangidanshu2022%2540gmail.com&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AeoWuM83xuNA2N9vIJIcy1iTxKCjk_nfDSWzJpgxkNthCz2IPRF3U04QLMqnTl0z_pe20g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=4&prompt=consent",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "POST::api::oidc::mobile::verify_code": {
+    "endpoint": "/api/oidc/mobile/verify_code",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::userConfig": {
+    "endpoint": "/api/userConfig?featureFlags=false&experiments=false",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::dojoSchool::VAR": {
+    "endpoint": "/api/dojoSchool/{school_id}?onlyVerified=true&skipParentCount=true",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::dojoSchool::VAR::schoolwideCenterTeacher": {
+    "endpoint": "/api/dojoSchool/{school_id}/schoolwideCenterTeacher",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::dojoClass": {
+    "endpoint": "/api/dojoClass?withPending=true&withArchived=true&withRequestedCollaborators=true&skipUnreadNotificationCounts=true",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::classWhereNotVerifiedInSchool": {
+    "endpoint": "/api/classWhereNotVerifiedInSchool",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::permission::district": {
+    "endpoint": "/api/permission/district",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::schoolTeacher::schools": {
+    "endpoint": "/api/schoolTeacher/schools",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::features::seen": {
+    "endpoint": "/api/features/seen",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::dojoSchool::VAR::class-invites": {
+    "endpoint": "/api/dojoSchool/{school_id}/class-invites",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::dojoSchool::VAR::my-classes": {
+    "endpoint": "/api/dojoSchool/{school_id}/my-classes",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::demo-classes": {
+    "endpoint": "/api/demo-classes",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::personal-class-invites": {
+    "endpoint": "/api/personal-class-invites",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::personal-classes": {
+    "endpoint": "/api/personal-classes",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::archived-classes::count": {
+    "endpoint": "/api/archived-classes/count",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::teachstatuspagecheck": {
+    "endpoint": "/api/teachstatuspagecheck",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::teacher::VAR::schoolVerificationRequest": {
+    "endpoint": "/api/teacher/{teacher_id}/schoolVerificationRequest",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::joinClassRequest": {
+    "endpoint": "/api/joinClassRequest",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::parentConnectionRequest": {
+    "endpoint": "/api/parentConnectionRequest",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::monsterverseConfig": {
+    "endpoint": "/api/monsterverseConfig",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::privacyPolicyUpdateAccepted": {
+    "endpoint": "/api/privacyPolicyUpdateAccepted",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::api::dataTransferConsent": {
+    "endpoint": "/api/dataTransferConsent",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  },
+  "GET::nats": {
+    "endpoint": "/nats",
+    "auth": "unknown",
+    "required_fields": [],
+    "constraints": [],
+    "interesting_params": [],
+    "errors_seen": []
+  }
+}
